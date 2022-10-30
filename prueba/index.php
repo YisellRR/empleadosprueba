@@ -11,10 +11,10 @@ include("conexion.php");
 	<title>Lista de Empleados</title>
 
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style_nav.css" rel="stylesheet">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style_nav.css" rel="stylesheet">
 
-	<!-- PWA Manifest -->
+	PWA Manifest
 	<link rel="manifest" href="./manifest.json">
 
 	<style>
@@ -22,16 +22,16 @@ include("conexion.php");
 			margin-top: 80px;
 		}
 	</style>
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
  		 if ("serviceWorker" in navigator) {
     		navigator.serviceWorker.register("sw.js");
  		 }
-	</script>
+	</script> -->
 
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
-		<?php include('nav.php');?>
+		<?php include('../nav.php');?>
 	</nav>
 	<div class="container">
 		<div class="content">
